@@ -1,8 +1,15 @@
-<html>
+<html lang="fr">
     <head>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="/static/base.css">
+        <title>Inscription</title>
     </head>
     <body>
-
+        <form method="post">
+            <label for="name">Le nom de votre JA :</label><br>
+            <input type="text" name="name" id="name" placeholder="Devlowave" value="{{ request.form['name'] }}"><br>
+            <label for="email">Votre mail :</label><br>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" value="{{ request.form['email'] }}"><br>
+            <button type="submit" name="valider" id="valider">Valider !</button>
+        </form>
     </body>
 </html>
