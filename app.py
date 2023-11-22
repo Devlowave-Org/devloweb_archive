@@ -14,7 +14,12 @@ def index():
 
 @app.route("/inscription", methods=("POST", "GET"))
 def inscription():
-    return render_template("inscription.html")
+    if request.method == "POST":
+        name = request.form["name"]
+        email = request.form["mail"]
+        ja_id = request.form["ja_id"]
+        password = request.form["password"]
+        return render_template("inscription.html")
 
 
 
