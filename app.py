@@ -1,8 +1,9 @@
 from flask import Flask, request, render_template
 import json
-
+import database
 
 app = Flask(__name__)
+app.debug = True
 key = json.load(open("key.json"))
 app.secret_key = key["key"]
 
@@ -16,10 +17,11 @@ def index():
 def inscription():
     if request.method == "POST":
         name = request.form["name"]
-        email = request.form["mail"]
+        email = request.form["email"]
         ja_id = request.form["ja_id"]
         password = request.form["password"]
-        return render_template("inscription.html")
+        database.inscrire_ja(name, email, ja_id, password)
+    return render_template("inscription.html")
 
 
 
