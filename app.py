@@ -15,13 +15,15 @@ def index():
 
 @app.route("/inscription", methods=("POST", "GET"))
 def inscription():
+    message = "Veuillez vous inscrire"
     if request.method == "POST":
         name = request.form["name"]
         email = request.form["email"]
         ja_id = request.form["ja_id"]
         password = request.form["password"]
-        database.inscrire_ja(name, email, ja_id, password)
-    return render_template("inscription.html")
+        if database.inscrire_ja(name, email, ja_id, password):
+            message = "Inscris !"
+    return render_template("inscription.html", message=message)
 
 
 
