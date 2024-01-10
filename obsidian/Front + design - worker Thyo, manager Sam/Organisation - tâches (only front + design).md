@@ -1,2 +1,0 @@
-Worker : Thyo
-Manager : Zamouelle

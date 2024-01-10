@@ -1,7 +1,0 @@
-- nom asso
-- short description
-- lien réseaux
-- ville
-- email
-- nb d'adhérents
-- département

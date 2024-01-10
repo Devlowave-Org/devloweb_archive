@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4dd88cfe-1462-4faf-bad2-7c8747a79989" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CMS_Devlowave.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/Page/CMS.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/Page/Template/TemplatePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/Page/Template/assets/eco1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/Page/Template/assets/feuille.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/Page/Template/assets/header.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/Page/Template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/Page/Template/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/Style/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/CMS/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx_setuper/cleaner.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx_setuper/nginx_site_setuper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/.obsidian/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/.obsidian/appearance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/.obsidian/core-plugins-migration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/.obsidian/core-plugins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/.obsidian/hotkeys.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/.obsidian/workspace.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/Front + design - worker Thyo, manager Sam/Organisation - tâches (only front + design).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/Organisation - tâches (all).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/back/Blocs_available.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/back/Organisation - tâches (only back + workers).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/back/infos_à_avoir.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obsidian/back/technos_back.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ahvMssnj4AZfOWfDFrXFWgwnW1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/thyo/Documents/CMS_Devlowave&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dd88cfe-1462-4faf-bad2-7c8747a79989" name="Changes" comment="" />
+      <created>1704783580947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704783580947</updated>
+      <workItem from="1704783582995" duration="26199000" />
+      <workItem from="1704825590154" duration="430000" />
+      <workItem from="1704828049100" duration="9600000" />
+      <workItem from="1704865259188" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
