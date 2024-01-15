@@ -5,28 +5,27 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: all .5s;
+  transition: all 0.5s;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  label {
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-  }
+}
+.change-img label {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 
-.header-image:hover .change-img{
+.header-image:hover .change-img {
   opacity: 1;
 }
 
-.change-img input{
+.change-img input {
   width: 0.1px;
-  height: .1px;
+  height: 0.1px;
   opacity: 0;
   position: relative;
-  z-index: -1
+  z-index: -1;
 }
 
 .icons {
@@ -35,13 +34,13 @@
   height: 30px;
 }
 
-.icons:hover .change-img{
+.icons:hover .change-img {
   opacity: 1;
 }
 
-input[type=text], textarea{
+input[type=text], textarea {
   background: transparent;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   resize: none;
   border: 0;
 }
@@ -66,7 +65,7 @@ input[type=text], textarea{
   font-weight: 600;
 }
 
-.h4{
+.h4 {
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -79,3 +78,5 @@ input[type=text], textarea{
 .nav {
   text-align: center;
 }
+
+/*# sourceMappingURL=style.css.map */

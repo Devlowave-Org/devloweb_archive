@@ -9,6 +9,15 @@
     }
 }
 
+@keyframes animation-image-move {
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
 @keyframes footer-animation {
     0%{
         transform: translateY(100%);
@@ -26,6 +35,15 @@
     100%{
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+@keyframes header-spin-image {
+    0%{
+        transform: translateY(-50%) translateX(100%) rotate(180deg);
+    }
+    100%{
+        transform: translateX(0) translateY(-50%) rotate(0deg);
     }
 }
 
@@ -151,6 +169,10 @@ h4 {
     color: seagreen;
 }
 
+.switch-members {
+    animation: animation-image-move 1s ;
+}
+
 /* Navbar */
 
 #navbar-desktop {
@@ -245,14 +267,15 @@ h4 {
     right: -2%;
     width: 80%;
     height: 80%;
-    transform: translateY(-50%) translateX(100%);
+    transform: translateY(-50%) translateX(100%) rotate(180deg);
+    transform-origin: center;
     background-position: 90%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .header-image-animation{
-    animation: header-right-animation 1s forwards;
+    animation: header-spin-image 2s forwards;
     animation-delay: 1s;
 }
 
