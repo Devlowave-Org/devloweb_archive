@@ -4,13 +4,13 @@ import database
 
 app = Flask(__name__)
 app.debug = True
-key = json.load(open("key.json"))
-app.secret_key = key["key"]
+key = "prout"
+app.secret_key = key
 
 
 @app.route("/")
 def index():
-    return render_template("home.html")
+    return render_template("/template/index.html")
 
 
 @app.route("/inscription", methods=("POST", "GET"))
