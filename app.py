@@ -2,15 +2,14 @@ from flask import Flask, request, render_template
 import json
 import database
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='')
 app.debug = True
-key = json.load(open("key.json"))
-app.secret_key = key["key"]
+app.secret_key = "banane"
 
 
-@app.route("/")
+@app.route("/", methods=("POST", "GET"))
 def index():
-    return render_template("home.html")
+    return render_template("index.html")
 
 
 @app.route("/inscription", methods=("POST", "GET"))
@@ -23,7 +22,7 @@ def inscription():
         password = request.form["password"]
         if database.inscrire_ja(name, email, ja_id, password):
             message = "Inscris !"
-    return render_template("inscription.html", message=message)
+    return render_template("newInscription.html", message=message)
 
 
 

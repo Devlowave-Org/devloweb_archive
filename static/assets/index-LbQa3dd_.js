@@ -2414,7 +2414,7 @@ footer p {
     <a href="#footer-contact" class="contact-button">Nous Contacter</a>
 
 </nav>
-
+<form action="#">
 <nav id="navbar-mobile" class="mobile">
     <span class="logo"></span>
 
@@ -2597,7 +2597,7 @@ footer p {
     <p style="text-align: center;">© Developed by Devlowave</p>
 </footer>
 
-
+</form>
 <script src="script.js"><\/script>
 
 <script>
@@ -2838,5 +2838,5 @@ footer p {
         </form>
     </section>
 
-    <p style="text-align: center;">© Developed by Devlowave</p>
+    <p style="text-align: center;">© Developped by Devlowave</p>
 </footer>`;function t0({img:e,text:t,members:n,links:r,color:i}){return Et.useEffect(()=>{setTimeout(()=>{let o=n;const a=document.querySelector(".arrow-left"),s=document.querySelector(".arrow-right"),l=[{id:0,element:document.querySelector("#third-section").querySelector(".right").querySelectorAll(".little-image-container")[1].querySelector("img")},{id:1,element:document.querySelector("#third-section").querySelector(".right").querySelectorAll(".little-image-container")[0].querySelector("img")},{id:2,element:document.querySelector("#third-section").querySelector(".middle")},{id:3,element:document.querySelector("#third-section").querySelector(".left").querySelectorAll(".little-image-container")[0].querySelector("img")},{id:4,element:document.querySelector("#third-section").querySelector(".left").querySelectorAll(".little-image-container")[1].querySelector("img")}];window.addEventListener("load",()=>{c()}),a.addEventListener("click",()=>{o=o.map(m=>m.id===0?{...m,id:4}:{...m,id:m.id-1}),c()}),s.addEventListener("click",()=>{o=o.map(m=>m.id===4?{...m,id:0}:{...m,id:m.id+1}),c()});function c(){l.forEach(m=>{if(m.id!==2)m.element.src=o.filter(v=>v.id===m.id)[0].image;else{const v=o.filter(x=>x.id===m.id)[0];m.element.querySelector("img").src=v.image,m.element.querySelector("h3").innerText=v.name,m.element.querySelector("h4").innerText=v.proffession,m.element.querySelector("p").innerText=v.description,m.element.querySelector("a").href=v.contact}})}},100)},[]),Et.useEffect(()=>{const o=document.createElement("style");return o.innerHTML=Vd(i),document.head.appendChild(o),()=>{document.head.removeChild(o)}},[i]),Km(e0({img:e,text:t,members:n,links:r}))}function n0(){const{img:e,text:t,setText:n,setImg:r,members:i,setMembers:o,links:a,setLinks:s,color:l,setColor:c}=Zh(),[m,v]=Et.useState(JSON.parse(sessionStorage.getItem("render"))?JSON.parse(sessionStorage.getItem("render")):!1);let x=e,g=i;const _={marginRight:"20px",padding:"10px 15px",border:"1px solid seagreen",background:"seagreen",color:"white",borderRadius:"30px",transition:"all .3s",cursor:"pointer"},h={padding:"10px 15px",border:"1px solid seagreen",background:"transparent",color:"seagreen",borderRadius:"30px",transition:"all .3s",cursor:"pointer"};function p(){v(b=>!b);const w=!m;sessionStorage.setItem("render",JSON.stringify(w))}async function u(w,b,E){const N=await(await fetch(E)).text();w.file(b,N)}async function d(){let w=1;const b=new Hh;for(let z of Object.keys(e)){const R=await(await fetch(e[z])).blob(),I=()=>{if(R.name){const F=R.name.split("."),ee=F.length;return F[ee-1]}else{const F=e[z].split("."),ee=F.length;return F[ee-1]}};b.file(`/assets/image${w}.${I()}`,R),x[z]=`./assets/image${w}.${I()}`,g=g.map(F=>F.ref===z?{...F,image:`./assets/image${w}.${I()}`}:{...F}),w++}const E=Jm({img:{...x},text:t,members:g,color:l});b.file("index.html",E),await u(b,"/script.js","/src/Page/Template/script.js"),b.generateAsync({type:"blob"}).then(z=>Xh.saveAs(z,"site.zip"))}return T.jsxs(T.Fragment,{children:[T.jsxs("div",{style:{display:"flex",alignItems:"center",justifyContent:"flex-end",width:"100%",padding:"20px 50px",background:"#ABF08C52"},children:[T.jsx("button",{className:"download",style:_,onClick:()=>d(),children:"Download"}),T.jsx("button",{className:"render",style:h,onClick:()=>p(),children:m?"Modifier":"Rendu"})]}),T.jsx("div",{className:"template",style:{position:"relative"},children:m?T.jsx(t0,{text:t,img:e,members:i,links:a,color:l}):T.jsx(Vh,{text:t,img:e,setText:n,setImg:r,members:i,setMembers:o,links:a,setLinks:s,color:l,setColor:c})})]})}ra.createRoot(document.getElementById("root")).render(T.jsx(Et.StrictMode,{children:T.jsx(n0,{})}));
